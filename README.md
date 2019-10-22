@@ -1,1 +1,1 @@
-FactoryMethod
+Suunnittelumallit-kurssin tehtäviä
