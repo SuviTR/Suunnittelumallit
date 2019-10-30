@@ -16,5 +16,8 @@ public class Main {
         
         timer.tick();
         
+        analogClockObserver.update(timer, args);
+        digitalClockObserver.update(timer, args);
+        
     }
 }
