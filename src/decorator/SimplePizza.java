@@ -11,7 +11,7 @@ public class SimplePizza implements Pizza {
     }
 
     public String getDescription() {
-        return "Simple pizza " + getKokonaisHinta() + "€ sisältää";
+        return "pizza - pohja " + getKokonaisHinta() + "€ - sisältää";
     }
       
 }
