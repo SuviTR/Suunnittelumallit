@@ -23,4 +23,10 @@ public class CharizardState implements PelihahmoState {
         System.out.println("Moi! Olen Charizard.");
     }
     
+    @Override
+    public void showWhatYouGot() {
+        fly();
+        roar();
+        blow();
+    }
 }

@@ -24,5 +24,10 @@ public class CharmeleonState implements PelihahmoState {
         System.out.println("Heippa! Olen Charmeleon.");
     }
     
-    
+    @Override
+    public void showWhatYouGot() {
+        grab();
+        strike();
+        wag();
+    }
 }

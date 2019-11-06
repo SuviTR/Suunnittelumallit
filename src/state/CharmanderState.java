@@ -23,4 +23,10 @@ public class CharmanderState implements PelihahmoState {
         System.out.println("Hei! Olen Charmander.");
     }
     
+    @Override
+    public void showWhatYouGot() {
+        bite();
+        run();
+        tire();
+    }
 }
