@@ -20,4 +20,8 @@ public class Pelihahmo {
     public void introduceYourself() {
         state.introduceYourself();
     }
+    
+    public void showWhatYouGot() {
+        state.showWhatYouGot();
+    }
 }
